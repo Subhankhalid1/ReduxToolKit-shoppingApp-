@@ -25,7 +25,7 @@ const Product = () => {
         <h5 style={{color:'red'}}>Rupees: {items.price} 'rs</h5>
                
                 <button disabled={items.added} onClick={() => store.dispatch(add(items))}
-                    style={{ width: `${60 / product.length}%` }}>
+                    style={{ width: `${140 / product.length}%` }}>
                     Add to Cart
                 </button>
                <br/> <br/>

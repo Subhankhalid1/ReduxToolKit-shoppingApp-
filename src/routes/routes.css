@@ -1,0 +1,22 @@
+.navbar{
+    position: relative;
+        background-color: black;
+        text-align: center;
+        padding: 20px 0px;
+    
+    }
+    
+    .navbar >a{
+        margin: 0 10px;
+        color: whitesmoke;
+        text-decoration: none;
+        padding: 8px;
+        border: 2px solid;
+        border-radius: 5px;
+    }
+    
+    .navbar >a:hover{
+    
+        color: brown;
+      
+    }

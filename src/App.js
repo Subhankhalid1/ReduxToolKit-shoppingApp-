@@ -1,16 +1,17 @@
 import React from 'react';
-import Product from './Components/Product'
-import Cart from './Components/Cart'
-// import IconCart from './cartDisplay'
+import Footer from './footer'
+import Routes from './routes/routes'
+
 import './App.css';
 
 function App() {
 
   return (
-    <div  className="App">
-
-        <Cart/>
-    <Product/>
+    <div className="App">
+    
+      <Routes />
+    
+      <Footer />
     </div>
   );
 }

@@ -41,7 +41,8 @@ const useStyles = makeStyles((theme) =>
     root: {
       width: "100%",
       backgroundColor: theme.palette.background.paper,
-      color:'green'
+      color:'green',
+    
     },
     inline: {
       display: "inline"
@@ -62,7 +63,7 @@ const Cart = () => {
   const products = useSelector((state) => state)
 
   return (
-    <>
+    <div >
       <Typography component="h2" variant="h6" color="primary" gutterBottom>
         Shopping Cart History
       </Typography>
@@ -120,7 +121,7 @@ const Cart = () => {
           </Typography>
         </ListItem>
       </List>
-    </>
+    </div>
   )
 }
 
