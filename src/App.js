@@ -1,5 +1,5 @@
 import React from 'react';
-// import Footer from './footer'
+
 import Routes from './routes/routes'
 
 import './App.css';
@@ -10,8 +10,6 @@ function App() {
     <div className="App">
 
       <Routes />
-
-      {/* <Footer /> */}
     </div>
   );
 }

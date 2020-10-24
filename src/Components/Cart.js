@@ -68,9 +68,11 @@ const Cart = () => {
       <Typography component="h2" variant="h6" color="primary" gutterBottom>
         Shopping Cart History
       </Typography>
+      <br/>
       <Typography component="p" variant="body1">
         You have selected {products.filter((product) => product.added).length} items in your cart
       </Typography>
+      <br/>
       <List className={classes.root}>
         {products
           .filter(product => product.added)

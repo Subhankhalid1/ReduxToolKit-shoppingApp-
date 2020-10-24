@@ -3,6 +3,7 @@ import Cart from '../Components/Cart'
 import Product from '../Components/Product'
 import Home from '../Components/Home'
 import About from '../Components/About'
+import Footer from '../footer'
 
 import './routes.css'
 import {
@@ -47,8 +48,9 @@ export default function Routes() {
         </Switch>
 
       </Router>
-
-
+      <br/> <br/>
+<Footer/>
+<br/> <br/>
     </div>
 
   )
