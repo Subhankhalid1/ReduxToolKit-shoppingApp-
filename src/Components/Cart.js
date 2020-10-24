@@ -64,6 +64,7 @@ const Cart = () => {
 
   return (
     <div >
+      <br/> <br/>
       <Typography component="h2" variant="h6" color="primary" gutterBottom>
         Shopping Cart History
       </Typography>
@@ -89,7 +90,11 @@ const Cart = () => {
                         className={classes.inline}
                         color="textPrimary"
                       >
-                        &pound;{(product.price / 100).toFixed(2)}
+                       <b style={{color:"red"}}> {product.price}/- rupees only </b>
+
+                       
+                        {/* &pound;{(product.price / 100).toFixed(2)} */}
+
                       </Typography>
                       {` — ${product.description}`}
                     </React.Fragment>
@@ -112,12 +117,12 @@ const Cart = () => {
         <ListItem className={classes.listItem}>
     
           <Typography variant="subtitle1" className={classes.total}>
-            &pound;
+            {/* &pound; */}
             {(
               products
                 .filter(product => product.added)
-                .reduce((acc, current) => (acc += current.price), 0) / 100
-            ).toFixed(2)}
+                .reduce((acc, current) => (acc += current.price), 0) 
+            )}/- RS
           </Typography>
         </ListItem>
       </List>

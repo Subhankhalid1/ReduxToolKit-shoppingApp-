@@ -1,10 +1,19 @@
 .navbar{
-    position: relative;
-        background-color: black;
+        position: relative;
+        background-color: rgb(104, 73, 240);
         text-align: center;
-        padding: 20px 0px;
+        justify-content: center;
+        padding: 40px 0px;
+       
     
     }
+    .button{
+        text-decoration: none;
+        color: whitesmoke;
+    }
+    .darkNight{
+        background-color: black;
+      }
     
     .navbar >a{
         margin: 0 10px;
